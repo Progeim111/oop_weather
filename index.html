@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <meta charset="UTF-8">
     <title>Current Weather- OOP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="weather">
-    <div id="description"></div>
-    <h1 id="temp"></h1>
-    <div id="location"></div>
-</div>
+<div class="continer">
+    <div id="weather">
+        <div id="description"></div>
+        <h1 id="temp"></h1>
+        <div id="location"></div>
+        <div id="wind_deg"></div>
+        <div id="wind_speed"></div>
+        <div id="humidity"></div>
+         <div id="air_pressure"></div>
+         <div id="visibility"></div>
+    </div>
 
-<hr>
-<div>
-    <form id="change-city">
-        <label for="city-name">City</label>
-        <input type="text" id="city-name">
-        <input type="submit" value="Save changes">
-    </form>
-    <br>
+    <hr>
+    <div>
+      <form id="change-city">
+           <label for="city-name">City</label>
+           <input type="text" id="city-name">
+            <input type="submit" class="btn" value="Save changes">
+        </form>
+        <br>
+    </div>
 </div>
-
 <script src="classes/LS.js"></script>
 <script src="classes/Weather.js"></script>
 <script src="classes/UI.js"></script>
 <script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>

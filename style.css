@@ -1,0 +1,15 @@
+.continer {
+    text-align: center;
+}
+
+#weather {
+    background-image: url("img/weather.webp") ;
+}
+#weather div {
+    font-size: 30px;
+
+}
+
+label {
+    font-size: 15px;
+}
